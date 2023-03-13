@@ -308,6 +308,9 @@
             "ref": "fadbfe33303a76e25cb63401050439aa9b1a9c7f"
         }
     },
+    "symfony/mime": {
+        "version": "v6.0.19"
+    },
     "symfony/monolog-bridge": {
         "version": "v6.0.1"
     },
@@ -339,6 +342,9 @@
         "version": "v1.23.1"
     },
     "symfony/polyfill-intl-icu": {
+        "version": "v1.27.0"
+    },
+    "symfony/polyfill-intl-idn": {
         "version": "v1.27.0"
     },
     "symfony/polyfill-intl-normalizer": {
@@ -445,6 +451,9 @@
             "config/packages/twig.yaml",
             "templates/base.html.twig"
         ]
+    },
+    "symfony/ux-chartjs": {
+        "version": "v2.7.1"
     },
     "symfony/validator": {
         "version": "6.0",

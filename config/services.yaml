@@ -27,3 +27,7 @@ services:
     # please note that last definitions always *replace* previous ones
 
     Psr\Log\LoggerInterface $mdLogger: '@monolog.logger.markdown'
+
+    App\EasyAdmin\TruncateLongTextConfigurator:
+        tags:
+            - { name: 'ea.field_configurator', priority: -1 }
