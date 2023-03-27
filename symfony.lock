@@ -118,6 +118,9 @@
     "gedmo/doctrine-extensions": {
         "version": "v3.4.0"
     },
+    "handcraftedinthealps/goodby-csv": {
+        "version": "1.4.2"
+    },
     "knplabs/knp-markdown-bundle": {
         "version": "1.5.x-dev"
     },

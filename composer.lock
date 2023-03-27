@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f95567e4613551eaf686bc4d76774adf",
+    "content-hash": "2b1344254d93c3b3088d485cbd8b71bf",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -1767,6 +1767,81 @@
                 "wiki": "https://github.com/Atlantic18/DoctrineExtensions/tree/main/doc"
             },
             "time": "2021-12-05T19:39:32+00:00"
+        },
+        {
+            "name": "handcraftedinthealps/goodby-csv",
+            "version": "1.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/handcraftedinthealps/goodby-csv.git",
+                "reference": "6dc287cb3c3b8d055a0a4889661ef2aeb0bbdfa8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/handcraftedinthealps/goodby-csv/zipball/6dc287cb3c3b8d055a0a4889661ef2aeb0bbdfa8",
+                "reference": "6dc287cb3c3b8d055a0a4889661ef2aeb0bbdfa8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2",
+                "symfony/polyfill-mbstring": "^1.0"
+            },
+            "replace": {
+                "goodby/csv": "self.version"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "^1.1",
+                "mockery/mockery": "^1.0",
+                "phpspec/prophecy": "^1.14",
+                "phpunit/phpunit": "^8.5",
+                "rector/rector": "^0.12.5",
+                "suin/php-expose": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Goodby\\CSV": "src/"
+                },
+                "exclude-from-classmap": [
+                    "/src/Goodby/CSV/Export/Tests/",
+                    "/src/Goodby/CSV/Import/Tests/",
+                    "/src/Goodby/CSV/TestHelper/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "reoring",
+                    "email": "mori.reo@gmail.com",
+                    "homepage": "https://www.facebook.com/reoring",
+                    "role": "Developer"
+                },
+                {
+                    "name": "suin",
+                    "email": "suinyeze@gmail.com",
+                    "homepage": "https://www.facebook.com/suinyeze",
+                    "role": "Developer, Renaming Specialist"
+                },
+                {
+                    "name": "Handcrafted in the alps contributors",
+                    "homepage": "https://github.com/handcraftedinthealps/goodby-csv/graphs/contributors",
+                    "role": "Contributors"
+                }
+            ],
+            "description": "CSV import/export library",
+            "homepage": "https://github.com/handcraftedinthealps/goodby-csv",
+            "keywords": [
+                "csv",
+                "export",
+                "import"
+            ],
+            "support": {
+                "source": "https://github.com/handcraftedinthealps/goodby-csv/tree/1.4.2"
+            },
+            "time": "2023-03-15T19:52:06+00:00"
         },
         {
             "name": "knplabs/knp-markdown-bundle",
@@ -8049,5 +8124,5 @@
         "ext-iconv": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }

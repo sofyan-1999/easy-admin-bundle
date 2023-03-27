@@ -36,7 +36,19 @@
                             </div>
                         </div>
                         <div class="col">
-                            <h1 class="q-title-show">{{ question.name }}</h1>
+                            <div class="d-flex justify-content-between">
+                                <h1 class="q-title-show">{{ question.name }}</h1>
+
+                                {% if is_granted('ROLE_ADMIN') %}
+                                    <a class="text-white" href="{{ ea_url()
+                                        .setController('App\\Controller\\Admin\\QuestionCrudController')
+                                        .setAction('edit')
+                                        .setEntityId(question.id)
+                                    }}">
+                                        <span class="fa fa-edit"></span>
+                                    </a>
+                                {% endif %}
+                            </div>
                             <div class="q-display p-3">
                                 <i class="fa fa-quote-left mr-3"></i>
                                 <p class="d-inline">{{ question.question|parse_markdown }}</p>

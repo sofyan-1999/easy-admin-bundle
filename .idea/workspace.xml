@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa38eb7f-814c-4eb3-9e47-b75eeebb6e88" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/EasyAdminBundle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EasyAdminBundle.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/Admin/QuestionCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/QuestionCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/question/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/question/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,6 +129,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
       <path value="$PROJECT_DIR$/vendor/symfony/mime" />
       <path value="$PROJECT_DIR$/vendor/symfony/ux-chartjs" />
+      <path value="$PROJECT_DIR$/vendor/handcraftedinthealps/goodby-csv" />
     </include_path>
   </component>
   <component name="ProjectId" id="2MVHaDNt7gbiD6gYVehJazXR58s" />
@@ -136,6 +144,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/sofyanbouazzati/Documents/EasyAdminBundle/src/Service",
     "nodejs_package_manager_path": "yarn",
     "php.override.implement.member.chooser.php.doc": "NONE",
     "ts.external.directory.path": "/Applications/PhpStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
@@ -143,6 +152,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Service" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templates/bundles" />
       <recent name="$PROJECT_DIR$/templates" />
@@ -158,7 +170,8 @@
       <updated>1677845890751</updated>
       <workItem from="1677845891987" duration="5000" />
       <workItem from="1677845913809" duration="1478000" />
-      <workItem from="1678693979942" duration="20665000" />
+      <workItem from="1678693979942" duration="21246000" />
+      <workItem from="1679912802164" duration="9718000" />
     </task>
     <servers />
   </component>
